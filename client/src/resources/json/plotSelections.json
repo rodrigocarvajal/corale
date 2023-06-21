@@ -1,0 +1,10 @@
+{
+    "plotSelections": {
+        "boxplot": "boxplot",
+        "violin": "violin",
+        "heatmap": "cluster",
+        "correlation": "correlation",
+        "survival": "survival",
+        "gsea": "gsea"
+    }
+}

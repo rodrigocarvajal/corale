@@ -1,0 +1,9 @@
+{
+	"field_list": ["meta", "clinical", "expression", "tme", "mutation"], 
+	"almost_zero": 1e-10, 
+	"os_minimum_num": 10, 
+	"output_base_folder": "",
+	"gmt_file_addr_gsea": "h.all.v7.2.symbols.gmt",
+	"gmt_file_addr_gsea_kegg": "c2.cp.kegg.v7.2.symbols.gmt",
+	"input_base_folder": ""
+}

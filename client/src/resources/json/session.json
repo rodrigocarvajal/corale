@@ -1,0 +1,8 @@
+{
+    "filterFeatures": "FilterFeatures",
+    "groupingSelections": "GroupingSelections",
+    "targetSelection": "TargetSelection",
+    "plotSelection": "PlotSelection",
+    "gseaGeneset": "GSEAGeneset",
+    "gseaMultiClinicalFeature": "GSEAMultiClinicalFeature"
+}

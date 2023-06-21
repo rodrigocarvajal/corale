@@ -1,0 +1,21 @@
+Amino acid	Single Letter Code	Three Letter Code	Charge(+/-/ neutral)	Polarity
+arginine	R	Arg	+ve	polar
+histidine	H	His	+ve	polar
+lysine	K	Lys	+ve	polar
+asparagine	N	Asn	neutral	polar
+cysteine	C	Cys	neutral	polar
+glutamine	Q	Gln	neutral	polar
+serine	S	Ser	neutral	polar
+threonine	T	Thr	neutral	polar
+tyrosine	Y	Tyr	neutral	polar
+aspartate	D	Asp	-ve	polar
+glutamate	E	Glu	-ve	polar
+alanine	A	Ala	neutral	nonpolar
+glycine	G	Gly	neutral	nonpolar
+isoleucine	I	Ile	neutral	nonpolar
+leucine	L	Leu	neutral	nonpolar
+methionine	M	Met	neutral	nonpolar
+phenylalanine	F	Phe	neutral	nonpolar
+proline	P	Pro	neutral	nonpolar
+tryptophan	W	Trp	neutral	nonpolar
+valine	V	Val	neutral	nonpolar

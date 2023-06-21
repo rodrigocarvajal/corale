@@ -1,0 +1,439 @@
+body {
+  color: #525252;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+select, select > option {
+  color: #525252;
+}
+
+#agesGroupRowRef {
+  display: none;
+}
+
+.boldFieldHeader {
+  font-weight: 600;
+}
+
+.submitButton {
+  color: #e9e9e9;
+  border: 1px solid #888888;
+  background-color: #20335f;
+  box-shadow: 3px 3px 2px #888888;
+  text-align: center;
+  margin-left: -0.5em;
+  cursor: pointer;
+}
+
+.optionsToggle {
+  color: #e9e9e9;
+  border: 1px solid #888888;
+  background-color: #20335f;
+  box-shadow: 3px 3px 2px #888888;
+  text-align: center;
+  cursor: pointer;
+}
+
+.resetToggle {
+  color: #e9e9e9;
+  border: 1px solid #888888;
+  background-color: #20335f;
+  box-shadow: 3px 3px 2px #888888;
+  text-align: center;
+  cursor: pointer;
+}
+
+.lineDivide {
+  border-bottom: 1px solid #888888;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.lineDivideSm {
+  border-bottom: 1px solid #888888;
+  width: 60vw;
+  margin-left: 19vw;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.embedPdf, .embedVideo {
+  width: 90vw;
+  height: 90vh;
+  margin-left: 5vw;
+}
+
+.attentionMessage {
+  color: #006eff;
+}
+
+.errorMessage {
+  color: #ff0055;
+}
+
+.zipFileIcon {
+  width: 1em;
+}
+
+.spacer {
+  margin-top: 3em;
+}
+
+.spacerSm {
+  margin-top: 1em;
+}
+
+.spacerLg {
+  margin-top: 5em;
+}
+
+.divider {
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.loadingDataWheel {
+  width: 1em;
+  margin-left: 1em;
+  animation: loadingDataWheel 2s linear infinite;
+}
+
+.loadingDataWheelLarge {
+  width: 2.5em;
+  margin-left: 1em;
+  animation: loadingDataWheel 2s linear infinite;
+}
+
+.agGridVisibility {
+  visibility: hidden;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+@keyframes loadingDataWheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* navbar */
+
+.titleSubtext {
+ font-weight: 300;
+ font-size: 1.5em;
+ margin-top: -1em;
+}
+
+.navbarCstm {
+  color: #e9e9e9;
+  background: #20335f;
+}
+
+a.navbarLink, .navbarLink {
+  color: #e9e9e9;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a.navLink {
+  color: #525252;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbarLinkDiv {
+  top: 35%;
+}
+
+.analysesDropdownLinks {
+  margin-left: 0.5em;
+  text-decoration: none;
+  color: #525252;
+  cursor: pointer;
+}
+
+.analysesDropdownLinks:hover {
+  margin-left: 0.5em;
+  text-decoration: none;
+  color: #222222;
+  cursor: pointer;
+}
+
+#analysesDropdown {
+    position: absolute;
+    background-color: #ebebeb;
+    min-width: 160px;
+    box-shadow: 2px 8px 8px 2px #8b8b8b;
+    z-index: 1;
+}
+
+/* end navbar */
+
+/* landing */
+
+a.pageSelectBox {
+  text-decoration: none;
+  color: #e9e9e9;
+  background: #20335f;
+  box-shadow: 3px 3px 2px #888888;
+  border: 1px solid #888888;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  height: 5em;
+  line-height:5em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* end landing */
+
+/* search bar */
+
+.geneSelect {
+  cursor: pointer;
+}
+
+.geneSelect:hover {
+  cursor: pointer;
+  background: #727272;
+}
+
+#groupingGeneSearchBarSuggestions, #targetGeneSearchBarSuggestions {
+  border: 2px solid #888888;
+  padding: 0.25em;
+  margin-left: 6.25em;
+  height: 20vh;
+  text-align: center;
+  overflow-y: auto;
+}
+
+#geneSelectButton {
+  margin-left: 1em;
+}
+
+/* end search bar */
+
+/* home landing */
+
+#coraleIntroductionStatement {
+  font-weight: 700;
+}
+
+#datasetSelectAgGridHeader {
+  margin-left: 10vw;
+  color: #525252;
+}
+
+.ag-row-selected > div.ag-cell-value {
+  color: #e9e9e9;
+}
+
+.ag-row-selected {
+  background-color: #20335f !important;
+}
+
+div.ag-cell {
+  color: #525252;
+}
+
+.missingGenesBox {
+  border: 1px solid #888888;
+  overflow-y: auto;
+  height: 5em;
+}
+
+#datasetSelectAgGrid {
+  height: 75vh;
+  width: 80vw;
+  margin-left: 10vw
+}
+
+/* end home landing */
+
+/* parameter select */
+
+.radioLeftMargin {
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+
+.radioRightMargin {
+  margin-right: 0.5em;
+}
+
+.ageTextInput {
+  width: 3em;
+}
+
+#ageCutoff {
+  margin-right: 1em;
+  padding-bottom: 1em;
+}
+
+#clearButton {
+  font-size: 0.85em;
+  padding: 0.25em;
+  margin-left: 1em;
+  cursor: pointer;
+  color: #1852a8;
+}
+
+/* end parameter select */
+
+/* datasets info */
+
+#datasetInfoAgGrid {
+  height: 90vh;
+  width: 80vw;
+  margin-left: 10vw
+}
+/* end datasets info */
+
+/* TMEselect */
+
+.tmeMenu {
+  margin-left: 1em;
+}
+
+/* end TMEselect */
+
+/* RenderGSEATable */
+
+#agGridNegativeNes, #agGridPositiveNes {
+  height: 75vh;
+  width: 85vw;
+}
+
+.gseaUserParams {
+  border: 1px solid #c9c9c9;
+  background-color: #f5f7f7;
+}
+
+.downloadGseaArchive, .downloadHeatmap {
+  cursor: pointer;
+}
+
+/* end RenderGSEATable */
+
+/* heatmap.js */
+
+.legendOutline {
+  border: 1px solid #000;
+  margin-right: 6em;
+}
+
+.legendBlock {
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  width: 1em;
+  height: 1em;
+}
+
+/* end heatmap.js */
+
+/* development banner */
+
+.devBanner {
+  background-color: #ff0062;
+}
+
+.devBannerItem {
+  font-size: 0.9em;
+  font-weight: 800;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* end development banner */
+
+/* GroupingSelection */
+
+.hiddenMultiClinicalRadio {
+  display: none;
+}
+
+.visibleMultiClinicalRadio {
+  display: block;
+}
+
+.gseaDecoration {
+  color: #2b63ac
+}
+
+.gseaFeatureValuesDiv {
+  border-left: 1px solid #2b63ac;
+  margin-left: 4em;
+}
+
+.gseaPosInput {
+  margin-left: 6em;
+}
+
+/* end GroupingSelection */
+
+/** landing page hover info **/
+
+dfn {
+  padding: 0 0.4em;
+  cursor: help;
+  font-style: normal;
+  position: relative;
+  
+}
+
+dfn::after {
+  content: attr(data-info);
+  display: inline;
+  position: absolute;
+  top: 5px; left: -3em;
+  opacity: 0;
+  width: 230px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5em;
+  padding: 0.5em 0.8em;
+  background: rgba(0,0,0,0.8);
+  color: #e9e9e9;
+  pointer-events: none; /* This prevents the box from apearing when hovered. */
+  transition: opacity 250ms, top 250ms;
+}
+
+dfn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px; left: 20px;
+  opacity: 0;
+  width: 0; height: 0;
+  border: solid transparent 5px;
+  border-bottom-color: rgba(0,0,0,0.8);
+  transition: opacity 250ms, top 250ms;
+}
+
+dfn:hover {z-index: 2;} /* Keeps the info boxes on top of other elements */
+dfn:hover::after, dfn:hover::before {opacity: 1;}
+dfn:hover::after {top: 20px;}
+dfn:hover::before {top: 10px;}
+
+/** end landing page hover info **/

@@ -1,0 +1,34 @@
+{
+    "server": {
+        "root": "/api",
+        "datasetsGet": "/datasets/get",
+        "datasetsDetailsGet": "/datasets/details/get",
+        "datasetGenesGet": "/dataset/genelist",
+        "datasetClinical": "/dataset/clinical",
+        "datasetTme": "/dataset/tme",
+        "datasetMutation": "/dataset/mutation",
+        "submitJob": "/submit",
+        "gseaFileListGet": "/gsea/list",
+        "gseaImgGet": "/gsea/get",
+        "gseaArchiveGet": "/gsea/archive",
+        "gseaGenesetReportPost": "/gsea/geneset/report",
+        "jobParametersSave": "/job/parameters/save",
+        "jobParametersGet": "/job/parameters/get",
+        "clustermapGet": "/clustermap/get",
+        "summaryGet": "/datasets/summary/get"
+    },
+    "client": {
+        "root": "/",
+        "landing": "/landing",
+        "home": "/home",
+        "tutorial": "/tutorial",
+        "datasetsInfo": "/datasetsinfo",
+        "gseaLookup": "/gsealookup",
+        "mainSurvival": "/survival",
+        "mainBoxViolin": "/boxplotviolin",
+        "mainHeatmap": "/cluster",
+        "mainCorrelation": "/correlation",
+        "mainGsea": "/gsea",
+        "about": "/about"
+    }
+}
