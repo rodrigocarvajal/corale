@@ -51,7 +51,7 @@ $ docker pull mongo
 1. Docker will be used to deploy each part of the application
 2. Clone the GIT repository in your desired deployment directory
 ```sh
-$ git clone git@gitlab.moffitt.usf.edu:cukrassd/com.flask.corale.git
+$ git clone git@github.com:CarvajalRodrigo/corale.git
 ```
 #### Build
 
